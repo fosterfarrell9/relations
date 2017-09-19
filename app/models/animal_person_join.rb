@@ -5,6 +5,6 @@ class AnimalPersonJoin < ApplicationRecord
   validate :match
 
   def match
-    errors.add(:base, 'First letters dont match')  if animal.name.first != person.name.first
+    errors.add(:base, 'First letters dont match') if animal.name.first != person.name.first
   end
 end
