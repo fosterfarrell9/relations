@@ -1,0 +1,5 @@
+class AddNameToAnimal < ActiveRecord::Migration[5.1]
+  def change
+    add_column :animals, :name, :string
+  end
+end
