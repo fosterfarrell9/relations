@@ -4,6 +4,7 @@
 * Rails version: 5.1.4
 
 Setup:
+
 rails db:migrate
 
 rails db:seed
